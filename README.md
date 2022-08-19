@@ -6,6 +6,5 @@ A project on the classification of blood sample images as infected for malaria p
   <img src="images/img2.jpeg" style="width: 300px; height: 500px"/>
   <img src="images/img3.jpeg" style="width: 300px; height: 500px"/>
 </div>
-## Deployment 
 
 ### Web App deployment: https://sushmita10062002-malaria-detection-using-cn-streamlitapp-u1ayly.streamlitapp.com/
