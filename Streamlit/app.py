@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Aug 14 17:49:44 2022
-
-@author: pc
-"""
 
 import numpy as np
 import os
@@ -13,7 +7,10 @@ from tensorflow.keras.preprocessing.image import load_img
 from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.models import load_model
 from PIL import Image
-model = load_model('densenet.h5')
+
+path = os.path.dirname(__file__)
+model_file = path+"/densenet.h5"
+model = load_model(model_file)
 
 def preprocess_image(img):
     img_arr = image.img_to_array(img)
