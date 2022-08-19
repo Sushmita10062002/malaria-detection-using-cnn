@@ -9,7 +9,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 
 path = os.path.dirname(__file__)
-model_file = path+"\densenet.h5"
+model_file = path+"/densenet.h5"
 model = load_model(model_file)
 
 def preprocess_image(img):
