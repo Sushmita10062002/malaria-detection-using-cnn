@@ -2,9 +2,9 @@
 A project on the classification of blood sample images as infected for malaria parasites and Uninfected otherwise.
 
 <div>
-  <img src="images/img1.jpeg" style="width: 200px; height: 500px"/>
-  <img src="images/img2.jpeg" style="width: 200px; height: 500px"/>
-  <img src="images/img3.jpeg" style="width: 200px; height: 500px"/>
+  <img src="images/img1.jpeg" style="width: 300px; height: 500px"/>
+  <img src="images/img2.jpeg" style="width: 300px; height: 500px"/>
+  <img src="images/img3.jpeg" style="width: 300px; height: 500px"/>
 </div>
 ## Deployment 
 
